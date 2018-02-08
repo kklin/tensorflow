@@ -84,13 +84,13 @@ $ kelda logs 4cc6c1021f35
 2017-10-25 19:14:53.619794: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
 2017-10-25 19:14:53.619970: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
 2017-10-25 19:14:53.620000: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
-2017-10-25 19:14:53.636929: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:215] Initialize GrpcChannelCache for job ps -> {0 -> ps.q:2222}
+2017-10-25 19:14:53.636929: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:215] Initialize GrpcChannelCache for job ps -> {0 -> ps:2222}
 Successfully downloaded train-images-idx3-ubyte.gz 9912422 bytes.
 Extracting ./input_data/train-images-idx3-ubyte.gz
 Successfully downloaded train-labels-idx1-ubyte.gz 28881 bytes.
 Extracting ./input_data/train-labels-idx1-ubyte.gz
 Successfully downloaded t10k-images-idx3-ubyte.gz 1648877 bytes.
-2017-10-25 19:14:53.637035: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:215] Initialize GrpcChannelCache for job worker -> {0 -> localhost:2222, 1 -> worker2.q:2222}
+2017-10-25 19:14:53.637035: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:215] Initialize GrpcChannelCache for job worker -> {0 -> localhost:2222, 1 -> worker2:2222}
 2017-10-25 19:14:53.637847: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:316] Started server with target: grpc://localhost:2222
 2017-10-25 19:14:55.466368: I tensorflow/core/distributed_runtime/master_session.cc:998] Start master session 2a634b60d2a18b27 with config:
 Extracting ./input_data/t10k-images-idx3-ubyte.gz
